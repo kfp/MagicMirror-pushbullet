@@ -1,0 +1,23 @@
+{
+  "name": "MagicMirror-pushbullet",
+  "version": "1.0.0",
+  "description": "Node server to serve up messages from a PushBullet device as json",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kfp/MagicMirror-pushbullet"
+  },
+  "author": "Elliott Sperlazza",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/kfp/MagicMirror-pushbullet/issues"
+  },
+  "dependencies": {
+    "http": "0.0.0",
+    "pushbullet": "~1.4.3",
+    "big-number": "~0.4.0"
+  }
+}
